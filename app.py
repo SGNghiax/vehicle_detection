@@ -95,53 +95,24 @@ def UI(model, class_names):
         b21.markdown("## About Us")
         st.markdown('')
         b31, b32, b33, b34, b35 = st.columns((1,3, 0.1,3,1))
-        b32.markdown('<p align="center"><img src="https://avatars.githubusercontent.com/u/68860804?v=4" width="300px" /></p>', unsafe_allow_html=True)
-        b32.markdown("<h2 style='text-align: center; color: black;'>Lê Nguyễn Gia Bảo</h1>", unsafe_allow_html=True)
+        b32.markdown('<p align="center"><img src="https://avatars.githubusercontent.com/u/112546649?v=4" width="300px" /></p>', unsafe_allow_html=True)
+        b32.markdown("<h2 style='text-align: center; color: black;'>Phan Trung Nghĩa</h1>", unsafe_allow_html=True)
         b32.markdown("<h3 style='text-align: center; color: black;'>18110251</h2>", unsafe_allow_html=True)
         b32.markdown('''
         <p align="center">
-            <a href="https://www.linkedin.com/in/lenguyengiabao/" target="_blank">
+            <a href="https://www.linkedin.com/in/nghĩa-phan-3a0125292/" target="_blank">
                 <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
             </a>
-            <a href="https://www.facebook.com/baorua.98/" alt="Facebook" target="_blank">
+            <a href="https://www.facebook.com/nghia.phan.901184/" alt="Facebook" target="_blank">
                 <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" />
             </a> 
-            <a href="https://github.com/LeNguyenGiaBao" alt="Github" target="_blank">
+            <a href="https://github.com/SGNghiax" alt="Github" target="_blank">
                 <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
             </a> 
-            <a href="https://www.youtube.com/channel/UCOZbUfO_au3oxHEh4x52wvw/videos" alt="Youtube channel" target="_blank" >
+            <a href="https://www.youtube.com/@SGNghiax" alt="Youtube channel" target="_blank" >
                 <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/>
             </a>
-            <a href="https://www.kaggle.com/nguyngiabol" alt="Kaggle" target="_blank" >
-                <img src="https://img.icons8.com/windows/48/000000/kaggle.png"/>
-            </a>
-            <a href="mailto:lenguyengiabao46@gmail.com" alt="Email" target="_blank">
-                <img src="https://img.icons8.com/fluent/48/000000/mailing.png"/>
-            </a>
-        </p>
-        ''', unsafe_allow_html=True)
-
-        b34.markdown('<p align="center"><img src="https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.6435-9/50291308_2508028652757436_5546464184155242496_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ZZz3SZMaXYgAX-881LS&_nc_ht=scontent.fsgn13-2.fna&oh=00_AT80newat36TZg94zbZLK_df5OFmoCo-VDKx2vKGe7s9zQ&oe=61FB6199" width="300px" /></p>', unsafe_allow_html=True)
-        b34.markdown("<h2 style='text-align: center; color: black;'>Trần Trung Kiên</h1>", unsafe_allow_html=True)
-        b34.markdown("<h3 style='text-align: center; color: black;'>18110309</h2>", unsafe_allow_html=True)
-        b34.markdown('''
-        <p align="center">
-            <a href="https://www.linkedin.com/in/lenguyengiabao/" target="_blank">
-                <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
-            </a>
-            <a href="https://www.facebook.com/trantrungkien2035" alt="Facebook" target="_blank">
-                <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" />
-            </a> 
-            <a href="https://github.com/ttkien2035" alt="Github" target="_blank">
-                <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
-            </a> 
-            <a href="https://www.youtube.com/channel/UCOZbUfO_au3oxHEh4x52wvw/videos" alt="Youtube channel" target="_blank" >
-                <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/>
-            </a>
-            <a href="https://www.kaggle.com/nguyngiabol" alt="Kaggle" target="_blank" >
-                <img src="https://img.icons8.com/windows/48/000000/kaggle.png"/>
-            </a>
-            <a href="mailto:trantrungkien2035@gmail.com" alt="Email" target="_blank">
+            <a href="mailto:sgnghiax@gmail.com" alt="Email" target="_blank">
                 <img src="https://img.icons8.com/fluent/48/000000/mailing.png"/>
             </a>
         </p>
@@ -154,15 +125,12 @@ def UI(model, class_names):
         b22.markdown('')
         b22.markdown('')
         b22.markdown('')
-        b22.markdown("<p style='text-align: left; color: black; font-size: 30px;'>Ho Chi Minh City University of Technology and Education</p>", unsafe_allow_html=True)
-        b22.markdown("<p style='text-align: left; color: black; font-size: 20px;'><a href='https://hcmute.edu.vn'>https://hcmute.edu.vn</a></p>", unsafe_allow_html=True)
+        b22.markdown("<p style='text-align: left; color: black; font-size: 30px;'>Saigon University</p>", unsafe_allow_html=True)
+        b22.markdown("<p style='text-align: left; color: black; font-size: 20px;'><a href='https://saigon.edu.vn'>https://saigon.edu.vn</a></p>", unsafe_allow_html=True)
         st.markdown('')
         st.markdown('')
         _, b21, b22 = st.columns((2,2, 7))
-        b21.markdown("<p style='text-align: center; color: black; font-size: 20px;'><img src='https://fit.hcmute.edu.vn/Resources/Images/SubDomain/fit/logo-cntt2021.png' width='150px' /> </p>", unsafe_allow_html=True)
-        b22.markdown('')
-        b22.markdown("<p style='text-align: left; color: black; font-size: 30px;'>Faculty Of Information Technology</p>", unsafe_allow_html=True)
-        b22.markdown("<p style='text-align: left; color: black; font-size: 20px;'><a href='fit.hcmute.edu.vn'>https://fit.hcmute.edu.vn</a></p>", unsafe_allow_html=True)
+
 
         st.markdown('')
         st.markdown('')
