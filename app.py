@@ -121,7 +121,7 @@ def UI(model, class_names):
         _, b21 = st.columns((1,10))
         b21.markdown("## From ")
         _, b21, b22 = st.columns((2,2, 7))
-        b21.markdown("<p style='text-align: center; color: black; font-size: 20px;'><img src='https://etc.sgu.edu.vn/sgu-logo/#iLightbox[postimages]/0' width='150px' /> </p>", unsafe_allow_html=True)
+        b21.markdown("<p style='text-align: center; color: black; font-size: 20px;'><img src='https://etc.sgu.edu.vn/sgu-logo/#iLightbox[postimages]/0.png' width='150px' /> </p>", unsafe_allow_html=True)
         b22.markdown('')
         b22.markdown('')
         b22.markdown('')
