@@ -97,7 +97,7 @@ def UI(model, class_names):
         b31, b32, b33, b34, b35 = st.columns((1,3, 0.1,3,1))
         b32.markdown('<p align="center"><img src="https://avatars.githubusercontent.com/u/112546649?v=4" width="300px" /></p>', unsafe_allow_html=True)
         b32.markdown("<h2 style='text-align: center; color: black;'>Phan Trung Nghĩa</h1>", unsafe_allow_html=True)
-        b32.markdown("<h3 style='text-align: center; color: black;'>18110251</h2>", unsafe_allow_html=True)
+        b32.markdown("<h3 style='text-align: center; color: black;'>3121410345</h2>", unsafe_allow_html=True)
         b32.markdown('''
         <p align="center">
             <a href="https://www.linkedin.com/in/nghĩa-phan-3a0125292/" target="_blank">
