@@ -30,5 +30,9 @@ cameras = [
     {
         'name': 'Lac Long Quan - Au Co',
         'id_camera': '5d8cdc9d766c880017188970'
+    },
+    {
+        'name': 'Nguyễn Văn Cừ - Trần Hưng Đạo',
+        'id_camera': '5b0b7bbe0e517b00119fd806'
     }
 ]
