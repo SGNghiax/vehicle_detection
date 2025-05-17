@@ -29,7 +29,7 @@ cameras = [
     },
     {
         'name': 'Lac Long Quan - Au Co',
-        'id_camera': '5d8cdc9d766c880017188970'
+        'id_camera': '5deb576d1dc17d7c5515ad0c'
     },
     {
         'name': 'Nguyễn Văn Cừ - Trần Hưng Đạo',
