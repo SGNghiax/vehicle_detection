@@ -38,5 +38,9 @@ cameras = [
     {
         'name': 'Nút giao ngã sáu Phù Đổng 1',
         'id_camera': '5deb576d1dc17d7c5515ad0c'
+    },
+    P
+        'name': 'Trần Hưng Đạo Nguyển Cư Trinh',
+        'id_camera': '662b811d1afb9c00172dcc1d'
     }
 ]
