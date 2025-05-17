@@ -84,11 +84,8 @@ def UI(model, class_names):
         b23.markdown("""<p style='text-align: left; color: red; font-size: 25px;'> Visualize Information With Charts </p>""", unsafe_allow_html=True)
         b23.markdown("""<p style='text-align: left; color: black; font-size: 20px;'> Using Realtime Information To Draw Charts </p>""", unsafe_allow_html=True)
         _, b21, _ = st.columns((1,3,1))
-        b21.markdown('---')
-        _, b21, b22, b23, _ = st.columns((0.5, 1.5,3,1,1))
-        b22.image(img_slack)
-        b21.markdown("""<p style='text-align: left; color: red; font-size: 25px;'> Notifications When Traffic Jams </p>""", unsafe_allow_html=True)
-        b21.markdown("""<p style='text-align: left; color: black; font-size: 20px;'> Join Slack Channel <a href='https://app.slack.com/client/T02RPGAG9D5/C02RXEK7806'>Here</a> With Us</p>""", unsafe_allow_html=True)
+        
+        
         
         st.markdown('---')
         _, b21 = st.columns((1,10))
