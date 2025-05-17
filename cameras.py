@@ -34,5 +34,9 @@ cameras = [
     {
         'name': 'Nguyễn Văn Cừ - Trần Hưng Đạo',
         'id_camera': '5b0b7bbe0e517b00119fd806'
+    },
+    {
+        'name': 'Nút giao ngã sáu Phù Đổng 1',
+        'id_camera': '5deb576d1dc17d7c5515ad0'
     }
 ]
